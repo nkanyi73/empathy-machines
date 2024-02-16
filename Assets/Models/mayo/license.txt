@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mayo
+* source:	https://sketchfab.com/3d-models/mayo-f3b0fb72aa8e49df85e6bf7a1173253c
+* author:	randomium235 (https://sketchfab.com/randomium235)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mayo" (https://sketchfab.com/3d-models/mayo-f3b0fb72aa8e49df85e6bf7a1173253c) by randomium235 (https://sketchfab.com/randomium235) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
