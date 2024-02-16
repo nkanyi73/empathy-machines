@@ -85,6 +85,14 @@ public class SliceObject : MonoBehaviour
         hg.InjectSupportedGrabTypes(Oculus.Interaction.Grab.GrabTypeFlags.All);
         hg.HandAlignment = HandAlignType.None;
         hg.InjectOptionalPointableElement(gb);
+
+        // SnapInteractor
+        SnapInteractor snap = slicedGameObject.AddComponent<SnapInteractor>();
+        snap.InjectPointableElement(gb);
+        snap.InjectRigidbody(rb);
+
+        PlaceSandwichElement element = slicedGameObject.AddComponent<PlaceSandwichElement>();
+        slicedGameObject.tag = "Sliceable";
         //// PointableElement pe = slicedGameObject.AddComponent<PointableElement>();
         //InteractableGroupView gv = slicedGameObject.AddComponent<InteractableGroupView>();
         //List<IInteractableView> interactables = new List<IInteractableView>
@@ -95,7 +103,9 @@ public class SliceObject : MonoBehaviour
 
         // Pointable Unity Event Wrapper
         //PointableUnityEventWrapper ew = slicedGameObject.AddComponent<PointableUnityEventWrapper>();
-        //ew.InjectPointable(gb);
+        ////ew.InjectPointable(gb);
+        //ew.WhenSelect.Invoke(sliceObject.DeactivateGrab());
+        
         // ////List<>
         // ////gv.InjectInteractables(0) = gb;
     }
