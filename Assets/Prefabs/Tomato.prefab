@@ -11,17 +11,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ca054f354a09b304c90cb150e542916e,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.05
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca054f354a09b304c90cb150e542916e,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.05
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca054f354a09b304c90cb150e542916e,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.05
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca054f354a09b304c90cb150e542916e,
         type: 3}
@@ -95,7 +95,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ca054f354a09b304c90cb150e542916e,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8356548696306799200}
+      addedObject: {fileID: 5172948763283290380}
   m_SourcePrefab: {fileID: 100100000, guid: ca054f354a09b304c90cb150e542916e, type: 3}
 --- !u!1 &7811807645303902872 stripped
 GameObject:
@@ -116,8 +116,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _quality: 0.131
---- !u!135 &8356548696306799200
-SphereCollider:
+--- !u!64 &5172948763283290380
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -134,6 +134,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.68590355
-  m_Center: {x: -0.00615713, y: -0.023540054, z: -0.006846846}
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9032557090061056480, guid: ca054f354a09b304c90cb150e542916e, type: 3}

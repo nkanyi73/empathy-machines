@@ -34,9 +34,10 @@ public class SliceObject : MonoBehaviour
             {
                 GameObject target = hit.transform.gameObject;
                 Slice(target);
-                //Debug.Log(target);
             }
         }
+
+        
     }
 
     public void Slice(GameObject target)
@@ -59,13 +60,14 @@ public class SliceObject : MonoBehaviour
 
             Destroy(target);
         }
+
     }
 
     public void SetUpSlicedComponent(GameObject slicedGameObject)
     {
         //Rigibody
         Rigidbody rb = slicedGameObject.AddComponent<Rigidbody>();
-        rb.AddExplosionForce(cutForce, slicedGameObject.transform.position, 0.0000001f);
+        //rb.AddExplosionForce(cutForce, slicedGameObject.transform.position, 0.000000001f);
         // Coillider
         MeshCollider collider = slicedGameObject.AddComponent<MeshCollider>();
         collider.convex = true;
@@ -87,9 +89,9 @@ public class SliceObject : MonoBehaviour
         hg.InjectOptionalPointableElement(gb);
 
         // SnapInteractor
-        SnapInteractor snap = slicedGameObject.AddComponent<SnapInteractor>();
-        snap.InjectPointableElement(gb);
-        snap.InjectRigidbody(rb);
+        //SnapInteractor snap = slicedGameObject.AddComponent<SnapInteractor>();
+        //snap.InjectPointableElement(gb);
+        //snap.InjectRigidbody(rb);
 
         PlaceSandwichElement element = slicedGameObject.AddComponent<PlaceSandwichElement>();
         slicedGameObject.tag = "Sliceable";
@@ -102,10 +104,10 @@ public class SliceObject : MonoBehaviour
         //gv.InjectInteractables(interactables);
 
         // Pointable Unity Event Wrapper
-        //PointableUnityEventWrapper ew = slicedGameObject.AddComponent<PointableUnityEventWrapper>();
+        ////PointableUnityEventWrapper ew = slicedGameObject.AddComponent<PointableUnityEventWrapper>();
         ////ew.InjectPointable(gb);
         //ew.WhenSelect.Invoke(sliceObject.DeactivateGrab());
-        
+
         // ////List<>
         // ////gv.InjectInteractables(0) = gb;
     }

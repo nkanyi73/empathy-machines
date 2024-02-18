@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Oculus.Interaction;
+using Oculus.Interaction.HandGrab;
 using UnityEngine;
 
 public class PlaceSandwichElement : MonoBehaviour
@@ -9,11 +10,14 @@ public class PlaceSandwichElement : MonoBehaviour
     private Grabbable grabbable;
     private Rigidbody rb;
     public Transform breadPrefab;
+    public HandGrabInteractable interactable;
 
     public void Start()
     {
         grabbable = GetComponent<Grabbable>();
         rb = GetComponent<Rigidbody>();
+        interactable = GetComponent<HandGrabInteractable>();
+        
     }
     private void OnCollisionEnter(Collision collision)
     {
@@ -29,9 +33,10 @@ public class PlaceSandwichElement : MonoBehaviour
         if(hasCollided)
         {
             Debug.Log("Deactivating Grab");
-            grabbable.enabled = false;
+            //grabbable.enabled = false;
             rb.useGravity = false;
             rb.isKinematic = true;
+            //interactable.enabled = false;
             transform.SetParent(breadPrefab);
         }
 

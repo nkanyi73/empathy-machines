@@ -10,6 +10,7 @@ public class HoldElements : MonoBehaviour
         {
             Debug.Log("At Bread");
             PlaceSandwichElement element = collision.gameObject.GetComponent<PlaceSandwichElement>();
+            element.breadPrefab = transform;
             element.DeactivateGrab();
 
         }
