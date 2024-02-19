@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 6936290387651796030}
   - component: {fileID: 3632735788109368523}
   - component: {fileID: 3465118921123199388}
-  - component: {fileID: 6633523143831691449}
+  - component: {fileID: 7463260044794258393}
   m_Layer: 0
   m_Name: Teaspoon
   m_TagString: Untagged
@@ -222,8 +222,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &6633523143831691449
-CapsuleCollider:
+--- !u!65 &7463260044794258393
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -240,11 +240,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 1.0560125
-  m_Height: 14.187323
-  m_Direction: 2
-  m_Center: {x: -3.909931, y: 0.4739316, z: 5.327824}
+  serializedVersion: 3
+  m_Size: {x: 3.0478265, y: 0.878173, z: 14.158644}
+  m_Center: {x: -3.6055803, y: 0.47393173, z: 5.0936866}
 --- !u!1 &9191384194499908616
 GameObject:
   m_ObjectHideFlags: 0
