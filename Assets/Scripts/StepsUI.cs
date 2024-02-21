@@ -30,8 +30,8 @@ public class StepsUI : MonoBehaviour
         if(currentStep >= 0 && currentStep < titleText.Length)
         {
             tileTextMeshPro.text = titleText[currentStep];
-            //descriptionTextMeshPro.text = descriptionText[currentStep];
-            descriptionTextMeshPro.text = FormatDescriptionText(descriptionText[currentStep]);
+            descriptionTextMeshPro.text = descriptionText[currentStep];
+            //descriptionTextMeshPro.text = FormatDescriptionText(descriptionText[currentStep]);
 
         }
         else
