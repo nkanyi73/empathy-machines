@@ -17,6 +17,7 @@ public class SliceObject : MonoBehaviour
     public float cutForce;
     public LayerMask sliceableLayer;
     public GameObject grabbablePrefab;
+    public EnvironmentScript env;
 
     // Start is called before the first frame update
     void Start()
@@ -94,6 +95,7 @@ public class SliceObject : MonoBehaviour
         //snap.InjectRigidbody(rb);
 
         PlaceSandwichElement element = slicedGameObject.AddComponent<PlaceSandwichElement>();
+        element.env = env;
         slicedGameObject.tag = "Sliceable";
         //// PointableElement pe = slicedGameObject.AddComponent<PointableElement>();
         //InteractableGroupView gv = slicedGameObject.AddComponent<InteractableGroupView>();

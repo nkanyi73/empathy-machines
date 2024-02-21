@@ -11,6 +11,7 @@ public class PlaceSandwichElement : MonoBehaviour
     private Rigidbody rb;
     public Transform breadPrefab;
     public HandGrabInteractable interactable;
+    public EnvironmentScript env;
 
     public void Start()
     {
@@ -21,11 +22,23 @@ public class PlaceSandwichElement : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.CompareTag("Bread"))
+        if(env.hasSandwichMakingBegun)
         {
-            hasCollided = true;
-            Debug.Log("Collision Detected");
+            if (collision.gameObject.CompareTag("Bottom Bread"))
+            {
+                hasCollided = true;
+                Debug.Log("Collision Detected");
+            }
+        } 
+        else
+        {
+            if (collision.gameObject.CompareTag("Bread"))
+            {
+                Debug.Log("PlaceSandwichElement Script");
+                hasCollided = true;
+            }
         }
+       
     }
 
     public void DeactivateGrab()
