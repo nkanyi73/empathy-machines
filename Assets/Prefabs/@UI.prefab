@@ -98,7 +98,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 16
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -464,7 +464,7 @@ RectTransform:
   m_GameObject: {fileID: 3634538124132160141}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0.631}
-  m_LocalScale: {x: 0.01, y: 0.006, z: 0.01}
+  m_LocalScale: {x: 0.011409, y: 0.006, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7424861844281597627}
@@ -572,12 +572,12 @@ MonoBehaviour:
   tileTextMeshPro: {fileID: 5415314456732466801}
   descriptionTextMeshPro: {fileID: 371961689154752435}
   titleText:
-  - Step 1
-  - Step 2
-  - Step 3
-  - Step 4
-  - Step 5
-  - Step 6
+  - Step 1  - Bread
+  - Step 2 - Butter
+  - Step 3 - Mayonnaise
+  - Step 4 - Tomatoes
+  - Step 5 - Basil
+  - Step 6 - Complete the sandwich
   descriptionText:
   - "Notice how the loaf is pre-cut. <br><indent=10%>\u2022 Start by picking up a
     slice of bread.<br>\u2022 Place it on the preparation board.</indent> "
@@ -588,9 +588,20 @@ MonoBehaviour:
   - "Next, add some mayonnaise. To accommodate your needs the mayo has already been
     placed in the bowl for you. From the bowl:<br><indent=10%>\u2022 Pick up the
     spoon.<br>\u2022 Spoon out the mayo from the bowl.</indent>"
-  - "One sentence<br><indent=10%>\u2022 Bullet point 1<br>\u2022 Bullet point 2</indent> "
-  - "One sentence<br><indent=10%>\u2022 Bullet point 1<br>\u2022 Bullet point 2</indent> "
-  - "One sentence<br><indent=10%>\u2022 Bullet point 1<br>\u2022 Bullet point 2</indent> "
+  - " Time for the tomatoes. Try slicing them. You need to do this as quickly as
+    possible. <br><indent=10%>\u2022 Pick up the chopping knife<br>\u2022 Try slicing
+    the tomato<br>\u2022 Pick up the chopped pieces<br>\u2022 Place the chopped pieces
+    on top of the mayo in the sandwich.</indent> "
+  - "Add some basil leaves for flavour. The leaves are already removed from the bunch
+    for you.<br><indent=10%>\u2022 Pick up the  single Basil leaves<br>\u2022 Place
+    on top of the tomato.</indent> "
+  - "Finally, top your sandwich with another slice of bread.<br><indent=10%>\u2022Pick
+    up a slice of bread<br>\u2022 Pick-up the butter knife <br>\u2022 Spread the
+    knife along the butter<br>\u2022 Feel how the dish moves as you try to spread
+    the butter<br>\u2022 Now spread the butter over the slice of bread<br>\u2022
+    Pick up the spoon<br>\u2022 Spoon out the mayo from the bowl<br>\u2022 Drop the
+    mayo onto the bread slice<br>\u2022 Pick up the knife<br>\u2022 Now spread the
+    mayo over the buttered bread slice.</indent>"
 --- !u!1 &5830226301783518072
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,8 +771,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 5
-  m_fontSizeBase: 5
+  m_fontSize: 4.5
+  m_fontSizeBase: 4.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
