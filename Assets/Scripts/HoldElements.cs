@@ -13,7 +13,6 @@ public class HoldElements : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Sliceable"))
         {
-            Debug.Log("Hold Elements Script");
             if (!env.hasSandwichMakingBegun)
             {
                 env.hasSandwichMakingBegun = true;
@@ -26,11 +25,29 @@ public class HoldElements : MonoBehaviour
                     collider.excludeLayers = LayerMask.GetMask("Sliceable");
                 }
             }
-            Debug.Log("At Bread");
             PlaceSandwichElement element = collision.gameObject.GetComponent<PlaceSandwichElement>();
             element.breadPrefab = transform;
             element.DeactivateGrab();
 
+        }
+
+        if(collision.gameObject.CompareTag("Basil"))
+        {
+            Debug.Log("Basil Detected");
+            PlaceSandwichElement element = collision.gameObject.GetComponent<PlaceSandwichElement>();
+            element.breadPrefab = transform;
+            element.DeactivateGrab();
+        }
+
+        if (collision.gameObject.CompareTag("Bread"))
+        {
+            if(env.hasSandwichMakingBegun)
+            {
+                collision.gameObject.transform.SetParent(transform, false);
+                collision.gameObject.GetComponent<Rigidbody>().isKinematic = true;
+                collision.gameObject.GetComponent<Rigidbody>().useGravity = false;
+                collision.gameObject.transform.localScale = Vector3.one;
+            }
         }
     }
 

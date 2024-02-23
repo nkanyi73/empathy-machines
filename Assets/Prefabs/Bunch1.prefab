@@ -98,9 +98,10 @@ GameObject:
   - component: {fileID: 7923845257878904962}
   - component: {fileID: 8629208130751577447}
   - component: {fileID: 8487741661540808033}
+  - component: {fileID: 3818576918793575514}
   m_Layer: 0
   m_Name: Bunch1
-  m_TagString: Untagged
+  m_TagString: Basil
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -192,7 +193,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 943633777139349328}
   serializedVersion: 4
-  m_Mass: 0.01
+  m_Mass: 0.001
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -245,6 +246,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _collider: {fileID: 8629208130751577447}
+--- !u!114 &3818576918793575514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943633777139349328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3b2cffbe095c346b4ae80078c93411, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  env: {fileID: 0}
 --- !u!1 &1789828016158360527
 GameObject:
   m_ObjectHideFlags: 0
