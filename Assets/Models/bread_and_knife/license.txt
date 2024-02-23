@@ -1,0 +1,11 @@
+Model Information:
+* title:	bread and knife
+* source:	https://sketchfab.com/3d-models/bread-and-knife-100544bc355347d1888ef470193215a9
+* author:	anybody (https://sketchfab.com/anybody)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "bread and knife" (https://sketchfab.com/3d-models/bread-and-knife-100544bc355347d1888ef470193215a9) by anybody (https://sketchfab.com/anybody) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

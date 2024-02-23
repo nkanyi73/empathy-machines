@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - SamplesInfoPanel
+  - Bread
+  - Sliceable
+  - Mayo
+  - Mayo Material
+  - Spoon
+  - Butter Knife
+  - Butter
+  - Bottom Bread
+  - Basil
   layers:
   - Default
   - TransparentFX
@@ -11,10 +21,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Sliceable
+  - Spread
+  - Water
+  - Bread
   - 
   - 
   - 

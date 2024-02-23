@@ -1,0 +1,81 @@
+﻿title: OneHandYarnScript
+tags:
+---
+
+===
+title: Bread
+tag: StepOne
+---
+<<declare $breadready=false>>
+<<declare $breadnotready=false>>
+
+I cannot even do the simplest of tasks like slice my own bread, instead it is pre-sliced. #line:0ee6b32 
+//option
+-> Next #line:0a75484 
+    <<set $breadready=true>>
+    <<jump Butter>>
+
+===
+title: Butter
+tag: steptwo
+---
+<<declare $appliedButter=false>>
+<<declare $notappliedButter=false>>
+
+With one hand I cannot even stabilise the butter dish. It is moving around... just like my independence in simple tasks. #line:0fcd9f9 
+//option
+-> Next #line:0f12d39 
+    <<set $appliedButter=true>>
+    <<jump Mayonnaise>>
+
+===
+title: Mayonnaise
+tag: stepthree
+---
+<<declare $appliedMayonnaise=false>>
+<<declare $notappliedMayonnaise=false>>
+
+I can not unscrew the top. Why is not disability considered in packaging design? #line:0d3260a 
+//option
+-> Next #line:0a87541 
+    <<set $appliedMayonnaise=true>>
+    <<jump Tomatoes>>
+
+===
+title: Tomatoes
+tag: stepfour
+---
+<<declare $choppedtomato=false>>
+<<declare $notChoppedTomato=false>>
+
+It's just a sandwich, but it feels like I am climbing a mountain. Does anyone understand how hard this is? #line:0ada240 
+//option
+-> Next #line:07eec99 
+    <<set $choppedtomato=true>>
+    <<jump Basil>>
+
+===
+title: Basil
+tag: stepfive
+---
+<<declare $addedbasil=false>>
+<<declare $notaddedbasil=false>>
+
+To express Frustration - I am fed up with being dependent on others. I cannot even prepare my own sandwich. #line:0a82e5d 
+//option
+-> Next #line:0417c1d 
+    <<set $addedbasil=true>>
+    <<jump CompletingTheSandwich>>
+
+===
+title: CompletingTheSandwich
+tag: stepsix
+---
+<<declare $sandwichready=false>>
+<<declare $sandwichnotready=false>>
+
+I did it, but it took so long. Every step was challenging. #line:0b5e565 
+//option
+-> Next #line:0bee3c4 
+    <<set $sandwichready=true>>
+===
