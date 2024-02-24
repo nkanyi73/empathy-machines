@@ -11,7 +11,7 @@ public class AirtableManager : MonoBehaviour
 
     [Header("Scripts")]
     // Reference to the AirtableSceneController script
-    public AirtableSceneController airtableSceneController;
+    //public AirtableSceneController airtableSceneController;
 
     [Header("Airtable Elements")]
     // Airtable API endpoint and authentication details
@@ -153,7 +153,7 @@ public class AirtableManager : MonoBehaviour
         lastRecordID = data.id;
 
         // Update the UI with the record ID
-        airtableSceneController.recordIDTMP.text = "Record ID: " + lastRecordID;
+        //airtableSceneController.recordIDTMP.text = "Record ID: " + lastRecordID;
 
         // Log the last record ID
         Debug.Log("Last RecordID was: " + data.id);
@@ -162,14 +162,14 @@ public class AirtableManager : MonoBehaviour
         if (dataToLoad == "PlayerName")
         {
             playerNameFromAirtable = data.fields.PlayerName;
-            airtableSceneController.playerNameFeedback.text = playerNameFromAirtable;
+            //airtableSceneController.playerNameFeedback.text = playerNameFromAirtable;
             Debug.Log("From Airtable: Player Name: " + playerNameFromAirtable);
         }
 
         if (dataToLoad == "Volume")
         {
             volumeFromAirtable = data.fields.Volume;
-            airtableSceneController.volumeFeedback.text = volumeFromAirtable;
+            //airtableSceneController.volumeFeedback.text = volumeFromAirtable;
             Debug.Log("From Airtable: Volume Data: " + volumeFromAirtable);
         }
 
@@ -177,8 +177,8 @@ public class AirtableManager : MonoBehaviour
         {
             playerNameFromAirtable = data.fields.PlayerName;
             volumeFromAirtable = data.fields.Volume;
-            airtableSceneController.playerNameFeedback.text = playerNameFromAirtable;
-            airtableSceneController.volumeFeedback.text = volumeFromAirtable;
+            //airtableSceneController.playerNameFeedback.text = playerNameFromAirtable;
+            //airtableSceneController.volumeFeedback.text = volumeFromAirtable;
             Debug.Log("From Airtable: Player Name: " + playerNameFromAirtable + ". Volume Data: " + volumeFromAirtable);
         }
 
@@ -189,10 +189,10 @@ public class AirtableManager : MonoBehaviour
             healthFromAirtable = data.fields.Health;
             scoreFromAirtable = data.fields.Score;
 
-            airtableSceneController.coinDataFeedback.text = coinsFromAirtable;
-            airtableSceneController.timePlayedFeedback.text = timePlayedFromAirtable;
-            airtableSceneController.healthDataFeedback.text = healthFromAirtable;
-            airtableSceneController.scoreDataFeedback.text = scoreFromAirtable;
+            //airtableSceneController.coinDataFeedback.text = coinsFromAirtable;
+            //airtableSceneController.timePlayedFeedback.text = timePlayedFromAirtable;
+            //airtableSceneController.healthDataFeedback.text = healthFromAirtable;
+            //airtableSceneController.scoreDataFeedback.text = scoreFromAirtable;
 
             Debug.Log("From Airtable: Game Data: Coins: " + coinsFromAirtable + " Time Played: " + timePlayedFromAirtable +
                       " Health Data: " + healthFromAirtable + " Score Data: " + scoreFromAirtable);
