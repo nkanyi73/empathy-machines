@@ -563,6 +563,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basil Leaves 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2753674003470731031, guid: 4e0968b44c874b8458efdbfad0db9971,
+        type: 3}
+      propertyPath: env
+      value: 
+      objectReference: {fileID: 72241672}
     - target: {fileID: 3818576918793575514, guid: 4e0968b44c874b8458efdbfad0db9971,
         type: 3}
       propertyPath: env
@@ -641,6 +646,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basil Leaves 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2753674003470731031, guid: 4e0968b44c874b8458efdbfad0db9971,
+        type: 3}
+      propertyPath: env
+      value: 
+      objectReference: {fileID: 72241672}
     - target: {fileID: 3818576918793575514, guid: 4e0968b44c874b8458efdbfad0db9971,
         type: 3}
       propertyPath: env
@@ -927,6 +937,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basil Leaves 7 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2753674003470731031, guid: 4e0968b44c874b8458efdbfad0db9971,
+        type: 3}
+      propertyPath: env
+      value: 
+      objectReference: {fileID: 72241672}
     - target: {fileID: 3818576918793575514, guid: 4e0968b44c874b8458efdbfad0db9971,
         type: 3}
       propertyPath: env
@@ -1021,6 +1036,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basil Leaves 4
       objectReference: {fileID: 0}
+    - target: {fileID: 2753674003470731031, guid: 4e0968b44c874b8458efdbfad0db9971,
+        type: 3}
+      propertyPath: env
+      value: 
+      objectReference: {fileID: 72241672}
     - target: {fileID: 3818576918793575514, guid: 4e0968b44c874b8458efdbfad0db9971,
         type: 3}
       propertyPath: env
@@ -1549,6 +1569,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basil Leaves 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2753674003470731031, guid: 4e0968b44c874b8458efdbfad0db9971,
+        type: 3}
+      propertyPath: env
+      value: 
+      objectReference: {fileID: 72241672}
     - target: {fileID: 3818576918793575514, guid: 4e0968b44c874b8458efdbfad0db9971,
         type: 3}
       propertyPath: env
@@ -1619,6 +1644,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e0968b44c874b8458efdbfad0db9971, type: 3}
+--- !u!4 &663030652 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9114578625484562721, guid: 5f21c8338bbe5f14fac348979ca291d0,
+    type: 3}
+  m_PrefabInstance: {fileID: 8846077750254174246}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &678651193 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1128469869111578491, guid: bf187b68367fbbc4680e2f3a3677e9a5,
@@ -2265,6 +2296,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basil Leaves 4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2753674003470731031, guid: 4e0968b44c874b8458efdbfad0db9971,
+        type: 3}
+      propertyPath: env
+      value: 
+      objectReference: {fileID: 72241672}
     - target: {fileID: 3818576918793575514, guid: 4e0968b44c874b8458efdbfad0db9971,
         type: 3}
       propertyPath: env
@@ -2895,6 +2931,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basil Leaves 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2753674003470731031, guid: 4e0968b44c874b8458efdbfad0db9971,
+        type: 3}
+      propertyPath: env
+      value: 
+      objectReference: {fileID: 72241672}
     - target: {fileID: 3818576918793575514, guid: 4e0968b44c874b8458efdbfad0db9971,
         type: 3}
       propertyPath: env
@@ -3365,6 +3406,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basil Leaves 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2753674003470731031, guid: 4e0968b44c874b8458efdbfad0db9971,
+        type: 3}
+      propertyPath: env
+      value: 
+      objectReference: {fileID: 72241672}
     - target: {fileID: 3818576918793575514, guid: 4e0968b44c874b8458efdbfad0db9971,
         type: 3}
       propertyPath: env
@@ -3664,6 +3710,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basil Leaves 6
       objectReference: {fileID: 0}
+    - target: {fileID: 2753674003470731031, guid: 4e0968b44c874b8458efdbfad0db9971,
+        type: 3}
+      propertyPath: env
+      value: 
+      objectReference: {fileID: 72241672}
     - target: {fileID: 3818576918793575514, guid: 4e0968b44c874b8458efdbfad0db9971,
         type: 3}
       propertyPath: env
@@ -4328,6 +4379,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basil Leaves 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2753674003470731031, guid: 4e0968b44c874b8458efdbfad0db9971,
+        type: 3}
+      propertyPath: env
+      value: 
+      objectReference: {fileID: 72241672}
     - target: {fileID: 3818576918793575514, guid: 4e0968b44c874b8458efdbfad0db9971,
         type: 3}
       propertyPath: env
@@ -4540,6 +4596,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basil Leaves 3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2753674003470731031, guid: 4e0968b44c874b8458efdbfad0db9971,
+        type: 3}
+      propertyPath: env
+      value: 
+      objectReference: {fileID: 72241672}
     - target: {fileID: 3818576918793575514, guid: 4e0968b44c874b8458efdbfad0db9971,
         type: 3}
       propertyPath: env
@@ -5307,6 +5368,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basil Leaves 6 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2753674003470731031, guid: 4e0968b44c874b8458efdbfad0db9971,
+        type: 3}
+      propertyPath: env
+      value: 
+      objectReference: {fileID: 72241672}
     - target: {fileID: 3818576918793575514, guid: 4e0968b44c874b8458efdbfad0db9971,
         type: 3}
       propertyPath: env
@@ -5397,6 +5463,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basil Leaves 5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2753674003470731031, guid: 4e0968b44c874b8458efdbfad0db9971,
+        type: 3}
+      propertyPath: env
+      value: 
+      objectReference: {fileID: 72241672}
     - target: {fileID: 3818576918793575514, guid: 4e0968b44c874b8458efdbfad0db9971,
         type: 3}
       propertyPath: env
@@ -7030,6 +7101,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basil Leaves 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2753674003470731031, guid: 4e0968b44c874b8458efdbfad0db9971,
+        type: 3}
+      propertyPath: env
+      value: 
+      objectReference: {fileID: 72241672}
     - target: {fileID: 3818576918793575514, guid: 4e0968b44c874b8458efdbfad0db9971,
         type: 3}
       propertyPath: env
@@ -31335,14 +31411,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7079690333082450364}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.296, y: 0, z: -0.646}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7079690333082352862}
   - {fileID: 2578104749774369998}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 663030652}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!4 &7079690333082281374
 Transform:
@@ -35714,7 +35790,7 @@ Transform:
   m_GameObject: {fileID: 1201017308684088813}
   serializedVersion: 2
   m_LocalRotation: {x: -0.10677416, y: -0.108174495, z: 0.69858384, w: 0.69919825}
-  m_LocalPosition: {x: -0.27, y: 0.14, z: 0.04}
+  m_LocalPosition: {x: -0.27, y: 0.154, z: 0.04}
   m_LocalScale: {x: 0.41013062, y: 0.41013062, z: 0.41013053}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -38725,7 +38801,7 @@ PrefabInstance:
     - target: {fileID: 2281362327397617275, guid: 5f21c8338bbe5f14fac348979ca291d0,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9114578625484562721, guid: 5f21c8338bbe5f14fac348979ca291d0,
         type: 3}
@@ -38780,7 +38856,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2416239776449666929, guid: 5f21c8338bbe5f14fac348979ca291d0, type: 3}
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 9114578625484562721, guid: 5f21c8338bbe5f14fac348979ca291d0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7079690333082281372}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f21c8338bbe5f14fac348979ca291d0, type: 3}
 --- !u!1 &8855864489001874500
@@ -39872,7 +39952,6 @@ SceneRoots:
   - {fileID: 1960839961}
   - {fileID: 543450652229144086}
   - {fileID: 1646058960}
-  - {fileID: 7079690333082281372}
   - {fileID: 1259708681382888383}
   - {fileID: 1617114993902638899}
   - {fileID: 764426295}
