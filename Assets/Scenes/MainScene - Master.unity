@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2015660159}
-  m_IndirectSpecularColor: {r: 0.00006619833, g: 0.00016095517, b: 0.0043559866, a: 1}
+  m_IndirectSpecularColor: {r: 0.00006809994, g: 0.00015816189, b: 0.004324501, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,9 +97,9 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 664d9d3fa038ea4448ab047636392794,
+  m_LightingDataAsset: {fileID: 112000000, guid: 5f3730a78298e3f45972c538f3bef5f9,
     type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: fdc689ae6169bab4bb424272da65e5c4,
+  m_LightingSettings: {fileID: 4890085278179872738, guid: c8c4b562c0ec37f49bf6becc873a41fd,
     type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -9175,6 +9175,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 265580974514711014, guid: 78588e276bcde674fbb5f65252c8944a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.58
+      objectReference: {fileID: 0}
     - target: {fileID: 6023095633979929057, guid: 78588e276bcde674fbb5f65252c8944a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17186,10 +17191,227 @@ PrefabInstance:
       propertyPath: m_Name
       value: '@UI'
       objectReference: {fileID: 0}
+    - target: {fileID: 1892308468984672951, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -3.113
+      objectReference: {fileID: 0}
     - target: {fileID: 2505757963765803513, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: titleText.Array.size
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: titleText.Array.data[0]
+      value: "<br> WELCOME TO <br> \u2018Giving Jo a Hand\u2019"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: titleText.Array.data[1]
+      value: Step 1  - Bread
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: titleText.Array.data[2]
+      value: Step 2 - Butter
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: titleText.Array.data[3]
+      value: Step 3 - Mayonnaise
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: titleText.Array.data[4]
+      value: Step 4 - Tomatoes
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: titleText.Array.data[5]
+      value: Step 5 - Basil
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: titleText.Array.data[6]
+      value: Step 6 - Sandwich
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: titleText.Array.data[8]
+      value: <br>Two Hands <br>Step 1 - Bread
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: titleText.Array.data[9]
+      value: Step 2 - Butter
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: titleText.Array.data[10]
+      value: Step 3 - Mayonnaise
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: titleText.Array.data[11]
+      value: Step 4 - Tomatoes
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: titleText.Array.data[12]
+      value: Step 5 - Basil
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: titleText.Array.data[13]
+      value: Step 6 - Sandwich
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: titleText.Array.data[14]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: titleText.Array.data[15]
+      value: Congratulations
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: descriptionText.Array.size
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: descriptionText.Array.data[0]
+      value: '<br><br>Today, you''ll be making a sandwich, first with one hand, then
+        with both. Let''s experience the difference. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: descriptionText.Array.data[1]
+      value: "Notice how the loaf is pre-sliced. <br><indent=10%>\u2022 Start by
+        picking up a slice of bread<br>\u2022 Place it on the preparation board.</indent> "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: descriptionText.Array.data[2]
+      value: "Next, butter the slice of bread. <br><indent=10%>\u2022 Pick up the
+        butter knife<br>\u2022 Use it to shave off a layer of butter from the the
+        block<br>\u2022 Note how the dish moves<br>\u2022 Next, spread the butter
+        over the slice of bread.</indent> "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: descriptionText.Array.data[3]
+      value: "Next, add some mayonnaise. To accommodate your needs the mayo has already
+        been placed in the bowl. <br><indent=10%>\u2022 Pick up the spoon<br>\u2022
+        Spoon out the mayo from the bowl<br>\u2022 Drop the mayo onto the bread slice<br>\u2022
+        Pick up the knife<br>\u2022 Spread the mayo over the buttered bread slice</indent>"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: descriptionText.Array.data[4]
+      value: "Time for the tomatoes. Try slicing them. You need to do this as quickly
+        as possible. <br><indent=10%>\u2022 Pick up the chopping knife<br>\u2022
+        Try slicing the tomatoes<br>\u2022 Pick up the chopped pieces<br>\u2022 Place
+        them on top of the mayo in the sandwich.</indent> "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: descriptionText.Array.data[5]
+      value: "Add some basil. Small bunches are already removed from the larger bunch.<br><indent=10%>\u2022
+        Pick up a small bunch<br>\u2022 Place on top of the tomato<br>\u2022 Pick
+        up another small bunch<br>\u2022 Place on top of the tomato.</indent>"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: descriptionText.Array.data[6]
+      value: "Finally, top your sandwich with another slice of bread.<br><indent=10%>\u2022
+        Pick up a slice of bread<br>\u2022 Place it on the preparation board<br>\u2022
+        Pick up the butter knife <br>\u2022 Use it to shave off a thin layer of butter
+        from the from the block<br>\u2022 Note how the dish moves<br>"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: descriptionText.Array.data[7]
+      value: "<indent=10%>\u2022 Now spread the butter over the slice of bread<br>\u2022
+        Pick up the spoon<br>\u2022 Spoon out the mayo from the bowl<br>\u2022 Drop
+        the mayo onto the bread slice<br>\u2022 Pick up the knife<br>\u2022 Now spread
+        the mayo over the buttered bread slice.</indent>"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: descriptionText.Array.data[8]
+      value: "<br>Now we'll make a sandwich using both hands. <br> <br><indent=10%>\u2022
+        Start by picking up a slice of bread<br>\u2022 Place it on the preparation
+        board.</indent>"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: descriptionText.Array.data[9]
+      value: "Next, butter the slice of bread. <br><indent=10%>\u2022 Pick up the
+        butter knife<br>\u2022 Use it to shave off a thin layer of butter from the
+        block<br>\u2022 Spread the butter over the slice of bread.</indent> "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: descriptionText.Array.data[10]
+      value: "Next, add some mayonnaise that is in the bowl. <br><indent=10%>\u2022
+        Pick up the spoon<br>\u2022 Spoon out the mayo from the bowl<br>\u2022 Drop
+        the mayo onto the bread slice<br>\u2022 Pick up the knife<br>\u2022 Spread
+        the mayo over the buttered bread slice</indent>"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: descriptionText.Array.data[11]
+      value: "Time for the tomato. Try slicing them. You need to do this as quickly
+        as possible. <br><indent=10%>\u2022 Pick up the chopping knife<br>\u2022
+        Try slicing the tomato<br>\u2022 Pick up the chopped pieces<br>\u2022 Place
+        them on top of the mayo in the sandwich.</indent> "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: descriptionText.Array.data[12]
+      value: "Add some basil.<br><indent=10%>\u2022 Pick up a small bunch<br>\u2022
+        Place on top of the tomato<br>\u2022 Pick up another small bunch<br>\u2022
+        Place on top of the tomato.</indent>"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: descriptionText.Array.data[13]
+      value: "Finally, top your sandwich with another slice of bread.<br><indent=10%>\u2022
+        Pick up a slice of bread<br>\u2022 Place it on the preparation board<br>Pick
+        up the butter knife <br>\u2022 Use it to shave off a thin layer of butter
+        from the block<br>\u2022Spread the butter over the slice of bread.</indent>"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: descriptionText.Array.data[14]
+      value: "<indent=10%>\u2022 Next, pick up the spoon<br>\u2022 Spoon out the
+        mayo from the bowl<br>\u2022 Drop the mayo onto the bread slice<br>\u2022
+        Pick up the knife<br>\u2022 Now spread the mayo over the buttered bread slice
+        <br>\u2022 Place the slice on top of the sandwich filling.</indent>"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: descriptionText.Array.data[15]
+      value: <br>You've completed the task.<br>You've made a sandwich.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5415314456732466801, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5415314456732466801, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6052645451335575761, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
@@ -17245,6 +17467,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Camera
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424861844281597627, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424861844281597627, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

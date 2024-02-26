@@ -5384,6 +5384,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: $Interactables
       objectReference: {fileID: 0}
+    - target: {fileID: 895983475498441571, guid: 065fb07fcaeae1b4285772ac7b8def09,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1470791998681486800, guid: e797be8f1f331ef40ac9200da73d8696,
+        type: 3}
+    - target: {fileID: 2501377699259770418, guid: 065fb07fcaeae1b4285772ac7b8def09,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4977131475666943381, guid: e797be8f1f331ef40ac9200da73d8696,
+        type: 3}
+    - target: {fileID: 3152831959828503279, guid: 065fb07fcaeae1b4285772ac7b8def09,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -7541507639132540185, guid: e797be8f1f331ef40ac9200da73d8696,
+        type: 3}
+    - target: {fileID: 5198508399340100264, guid: 065fb07fcaeae1b4285772ac7b8def09,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1470791998681486800, guid: e797be8f1f331ef40ac9200da73d8696,
+        type: 3}
     - target: {fileID: 5278558012414980219, guid: 065fb07fcaeae1b4285772ac7b8def09,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5434,6 +5458,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7667497950262901308, guid: 065fb07fcaeae1b4285772ac7b8def09,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -7745125141852784594, guid: e797be8f1f331ef40ac9200da73d8696,
+        type: 3}
+    - target: {fileID: 8162457783316844940, guid: 065fb07fcaeae1b4285772ac7b8def09,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1470791998681486800, guid: e797be8f1f331ef40ac9200da73d8696,
+        type: 3}
+    - target: {fileID: 8912969529392421521, guid: 065fb07fcaeae1b4285772ac7b8def09,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -7227129179611170996, guid: e797be8f1f331ef40ac9200da73d8696,
+        type: 3}
+    - target: {fileID: 9204911249807031250, guid: 065fb07fcaeae1b4285772ac7b8def09,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1470791998681486800, guid: e797be8f1f331ef40ac9200da73d8696,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
