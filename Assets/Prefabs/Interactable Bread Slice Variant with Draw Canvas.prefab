@@ -350,6 +350,12 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Bread
       objectReference: {fileID: 0}
+    - target: {fileID: 2306301188474599091, guid: 408895317fb7bab449cb058cd2f1906b,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1470791998681486800, guid: e797be8f1f331ef40ac9200da73d8696,
+        type: 3}
     - target: {fileID: 4432471744133639601, guid: 408895317fb7bab449cb058cd2f1906b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]

@@ -31,13 +31,13 @@ public class HoldElements : MonoBehaviour
 
         }
 
-        if(collision.gameObject.CompareTag("Basil"))
-        {
-            Debug.Log("Basil Detected");
-            PlaceSandwichElement element = collision.gameObject.GetComponent<PlaceSandwichElement>();
-            element.breadPrefab = transform;
-            element.DeactivateGrab();
-        }
+        //if(collision.gameObject.CompareTag("Basil"))
+        //{
+        //    Debug.Log("Basil Detected");
+        //    PlaceBasil element = collision.gameObject.GetComponent<PlaceBasil>();
+        //    element.breadPrefab = transform;
+        //    element.DeactivateGrab();
+        //}
 
         if (collision.gameObject.CompareTag("Bread"))
         {
