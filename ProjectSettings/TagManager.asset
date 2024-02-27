@@ -14,6 +14,8 @@ TagManager:
   - Butter
   - Bottom Bread
   - Basil
+  - Tomato
+  - Counter
   layers:
   - Default
   - TransparentFX

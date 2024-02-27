@@ -34,7 +34,7 @@ public class VelocityTracker : MonoBehaviour
 
         if (velocityMagnitude >= velocityThreshold)
         {
-            Debug.Log("Object velocity has reached the threshold: " + velocityMagnitude);
+            //Debug.Log("Object velocity has reached the threshold: " + velocityMagnitude);
             atChoppingSpeed = true;
             // You can perform additional actions here if needed
         }
