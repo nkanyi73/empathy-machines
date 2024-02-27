@@ -260,7 +260,7 @@ Rigidbody:
   m_GameObject: {fileID: 6886102878736687421}
   serializedVersion: 4
   m_Mass: 0.4
-  m_Drag: 0.05
+  m_Drag: 0.15
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -754,6 +754,7 @@ MonoBehaviour:
     m_Bits: 64
   grabbablePrefab: {fileID: 6344593152868534868, guid: 55f00050822302b4ea187c482e1dfc10,
     type: 3}
+  env: {fileID: 0}
 --- !u!65 &4480534272957362174
 BoxCollider:
   m_ObjectHideFlags: 0
