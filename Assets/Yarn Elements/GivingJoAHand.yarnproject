@@ -6,11 +6,7 @@
   "excludeFiles": [
     "**/*~/*"
   ],
-  "localisation": {
-    "en": {
-      "assets": "VoiceOvers"
-    }
-  },
+  "localisation": {},
   "baseLanguage": "en",
   "compilerOptions": {}
 }
