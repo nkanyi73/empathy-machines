@@ -28,6 +28,16 @@ public class StepsUI : MonoBehaviour
     {
         currentStep++;
         UpdateUI();
+
+        // Check if the current step is within the valid range
+        if (currentStep >= 0 && currentStep < titleText.Length)
+        {
+            string nodeToPlay = GetDialogueNodeForStep(currentStep);
+            float delay = GetDelayForStep(currentStep);
+
+            // Start the coroutine for the current step
+            StartCoroutine(StartDialogueAfterDelay(delay, nodeToPlay));
+        }
     }
 
     IEnumerator StartDialogueAfterDelay(float delay, string nodeToPlay)
@@ -42,27 +52,27 @@ public class StepsUI : MonoBehaviour
             tileTextMeshPro.text = titleText[currentStep];
             descriptionTextMeshPro.text = descriptionText[currentStep];
             //descriptionTextMeshPro.text = FormatDescriptionText(descriptionText[currentStep]);
-            switch (currentStep) 
-            {
-                case 2:
-                    StartCoroutine(StartDialogueAfterDelay(5f, "Bread"));
-                    break;
-                case 3:
-                    StartCoroutine(StartDialogueAfterDelay(5f, "Butter"));
-                    break;
-                case 1:
-                    StartCoroutine(StartDialogueAfterDelay(10f, "Tomatoes"));
-                    break;
-                case 4:
-                    StartCoroutine(StartDialogueAfterDelay(5f, "Basil"));
-                    break;
-                case 5:
-                    StartCoroutine(StartDialogueAfterDelay(5f, "Mayonnaise"));
-                    break;
-                case 6:
-                    StartCoroutine(StartDialogueAfterDelay(5f, "CompletingTheSandwich"));
-                    break;
-            }
+            //switch (currentStep) 
+            //{
+            //    case 2:
+            //        StartCoroutine(StartDialogueAfterDelay(5f, "Bread"));
+            //        break;
+            //    case 3:
+            //        StartCoroutine(StartDialogueAfterDelay(5f, "Butter"));
+            //        break;
+            //    case 1:
+            //        StartCoroutine(StartDialogueAfterDelay(10f, "Tomatoes"));
+            //        break;
+            //    case 4:
+            //        StartCoroutine(StartDialogueAfterDelay(5f, "Basil"));
+            //        break;
+            //    case 5:
+            //        StartCoroutine(StartDialogueAfterDelay(5f, "Mayonnaise"));
+            //        break;
+            //    case 6:
+            //        StartCoroutine(StartDialogueAfterDelay(5f, "CompletingTheSandwich"));
+            //        break;
+            //}
 
         }
         else
@@ -71,11 +81,7 @@ public class StepsUI : MonoBehaviour
         }
     }
 
-    //private string FormatDescriptionText(string description)
-    //{
-    //    // Add bullet points using rich text formatting
-    //    return $"<b>Bullet Points:</b>\n• {description.Replace("\n", "\n• ")}";
-    //}
+  
 
     private string FormatDescriptionText(string description)
     {
@@ -91,5 +97,39 @@ public class StepsUI : MonoBehaviour
         }
 
         return formattedText;
+    }
+
+    //==============================================================
+
+    private string GetDialogueNodeForStep(int step)
+    {
+        switch (step)
+        {
+            case 1: return "Bread";
+            case 2: return "Butter";
+            case 3: return "Mayonnaise";
+            case 4: return "Tomatoes";
+            case 5: return "Basil";
+            case 6: return "CompletingTheSandwich";
+            case 7: return "CompletingTheSandwichEmpathy";
+            default: return ""; // Adjust this based on your specific logic or add additional cases
+        }
+    }
+
+
+    private float GetDelayForStep(int step)
+    {
+        // Adjust the delays for each step as needed
+        switch (step)
+        {
+            case 1: return 5f;
+            case 2: return 15f;
+            case 3: return 10f;
+            case 4: return 10f;
+            case 5: return 10f;
+            case 6: return 10f;
+            case 7: return 2f;
+            default: return 0f; // No delay for other steps
+        }
     }
 }

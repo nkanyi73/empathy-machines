@@ -121,7 +121,6 @@ tag: stepsix
 
 I did it, but it took so long. Every step was challenging. #line:0b5e565 
 
-People don not realise the challenges faced with a task as simple as making a sandwich. #line:0b7f6d3 
 //option
 // -> Next #line:0bee3c4 
 //     <<set $sandwichready=true>>
@@ -131,6 +130,7 @@ tag: stepsix
 ---
 <<declare $sandwichreadyEmpathy=false>>
 <<declare $sandwichnotreadyEmpathy=false>>
+People don not realise the challenges faced with a task as simple as making a sandwich. #line:0b7f6d3 
 
 //option
 // -> Next #line:00fb262 

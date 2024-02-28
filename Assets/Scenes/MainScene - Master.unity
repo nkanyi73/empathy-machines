@@ -3443,13 +3443,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 24e6df468bfb2cb47a24a329ad43ecde, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.312
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 80
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -7099,6 +7099,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 5994499245473171238}
+    - targetCorrespondingSourceObject: {fileID: 9191384194499908616, guid: 1e6219a621ebd3846b986600c87e57bc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5994499245473171244}
     - targetCorrespondingSourceObject: {fileID: 7024131770520522232, guid: 1e6219a621ebd3846b986600c87e57bc,
         type: 3}
       insertIndex: -1
@@ -10553,6 +10557,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4657755717532778847, guid: 78588e276bcde674fbb5f65252c8944a,
+        type: 3}
+      propertyPath: Priority
+      value: 95
+      objectReference: {fileID: 0}
+    - target: {fileID: 4657755717532778847, guid: 78588e276bcde674fbb5f65252c8944a,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4657755717532778847, guid: 78588e276bcde674fbb5f65252c8944a,
+        type: 3}
+      propertyPath: MinDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4657755717532778847, guid: 78588e276bcde674fbb5f65252c8944a,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 6023095633979929057, guid: 78588e276bcde674fbb5f65252c8944a,
         type: 3}
@@ -18899,7 +18923,7 @@ PrefabInstance:
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
       propertyPath: titleText.Array.size
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
@@ -18919,17 +18943,17 @@ PrefabInstance:
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
       propertyPath: titleText.Array.data[3]
-      value: Step 3 - Tomatoes
+      value: Step 3 - Mayonnaise
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
       propertyPath: titleText.Array.data[4]
-      value: Step 4 - Basil
+      value: Step 4 - Tomatoes
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
       propertyPath: titleText.Array.data[5]
-      value: Step 5 - Mayonnaise
+      value: Step 5 - Basil
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
@@ -18939,47 +18963,52 @@ PrefabInstance:
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
       propertyPath: titleText.Array.data[8]
-      value: <br>Two Hands <br>Step 1 - Bread
+      value: Congratulations
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
       propertyPath: titleText.Array.data[9]
-      value: Step 2 - Butter
+      value: <br>Two Hands <br>Step 1 - Bread
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
       propertyPath: titleText.Array.data[10]
-      value: Step 3 - Mayonnaise
+      value: Step 2 - Butter
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
       propertyPath: titleText.Array.data[11]
-      value: Step 4 - Tomatoes
+      value: Step 3 - Mayonnaise
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
       propertyPath: titleText.Array.data[12]
-      value: Step 5 - Basil
+      value: Step 4 - Tomatoes
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
       propertyPath: titleText.Array.data[13]
-      value: Step 6 - Sandwich
+      value: Step 5 - Basil
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
       propertyPath: titleText.Array.data[14]
-      value: 
+      value: Step 6 - Sandwich
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
       propertyPath: titleText.Array.data[15]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: titleText.Array.data[16]
       value: Congratulations
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
       propertyPath: descriptionText.Array.size
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
@@ -19004,6 +19033,14 @@ PrefabInstance:
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
       propertyPath: descriptionText.Array.data[3]
+      value: "Next, add some mayonnaise. To accommodate your needs the mayo has already
+        been placed in the bowl. <br><indent=10%>\u2022 Pick up the spoon<br>\u2022
+        Spoon out the mayo from the bowl<br>\u2022 Drop the mayo onto the bread slice<br>\u2022
+        Pick up the knife<br>\u2022 Spread the mayo over the buttered bread slice</indent>"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: descriptionText.Array.data[4]
       value: "Time for the tomatoes. Try slicing them. You need to do this as quickly
         as possible. <br><indent=10%>\u2022 Pick up the chopping knife<br>\u2022
         Try slicing the tomatoes<br>\u2022 Pick up the chopped pieces<br>\u2022 Place
@@ -19011,18 +19048,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
-      propertyPath: descriptionText.Array.data[4]
+      propertyPath: descriptionText.Array.data[5]
       value: "Add some basil. Small bunches are already removed from the larger bunch.<br><indent=10%>\u2022
         Pick up a small bunch<br>\u2022 Place on top of the tomato<br>\u2022 Pick
         up another small bunch<br>\u2022 Place on top of the tomato.</indent>"
-      objectReference: {fileID: 0}
-    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
-        type: 3}
-      propertyPath: descriptionText.Array.data[5]
-      value: "Next, add some mayonnaise. To accommodate your needs the mayo has already
-        been placed in the bowl. <br><indent=10%>\u2022 Pick up the spoon<br>\u2022
-        Spoon out the mayo from the bowl<br>\u2022 Drop the mayo onto the bread slice<br>\u2022
-        Pick up the knife<br>\u2022 Spread the mayo over the buttered bread slice</indent>"
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
@@ -19043,20 +19072,25 @@ PrefabInstance:
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
       propertyPath: descriptionText.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
+        type: 3}
+      propertyPath: descriptionText.Array.data[9]
       value: "<br>Now we'll make a sandwich using both hands. <br> <br><indent=10%>\u2022
         Start by picking up a slice of bread<br>\u2022 Place it on the preparation
         board.</indent>"
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
-      propertyPath: descriptionText.Array.data[9]
+      propertyPath: descriptionText.Array.data[10]
       value: "Next, butter the slice of bread. <br><indent=10%>\u2022 Pick up the
         butter knife<br>\u2022 Use it to shave off a thin layer of butter from the
         block<br>\u2022 Spread the butter over the slice of bread.</indent> "
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
-      propertyPath: descriptionText.Array.data[10]
+      propertyPath: descriptionText.Array.data[11]
       value: "Next, add some mayonnaise that is in the bowl. <br><indent=10%>\u2022
         Pick up the spoon<br>\u2022 Spoon out the mayo from the bowl<br>\u2022 Drop
         the mayo onto the bread slice<br>\u2022 Pick up the knife<br>\u2022 Spread
@@ -19064,7 +19098,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
-      propertyPath: descriptionText.Array.data[11]
+      propertyPath: descriptionText.Array.data[12]
       value: "Time for the tomato. Try slicing them. You need to do this as quickly
         as possible. <br><indent=10%>\u2022 Pick up the chopping knife<br>\u2022
         Try slicing the tomato<br>\u2022 Pick up the chopped pieces<br>\u2022 Place
@@ -19072,14 +19106,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
-      propertyPath: descriptionText.Array.data[12]
+      propertyPath: descriptionText.Array.data[13]
       value: "Add some basil.<br><indent=10%>\u2022 Pick up a small bunch<br>\u2022
         Place on top of the tomato<br>\u2022 Pick up another small bunch<br>\u2022
         Place on top of the tomato.</indent>"
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
-      propertyPath: descriptionText.Array.data[13]
+      propertyPath: descriptionText.Array.data[14]
       value: "Finally, top your sandwich with another slice of bread.<br><indent=10%>\u2022
         Pick up a slice of bread<br>\u2022 Place it on the preparation board<br>Pick
         up the butter knife <br>\u2022 Use it to shave off a thin layer of butter
@@ -19087,7 +19121,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
-      propertyPath: descriptionText.Array.data[14]
+      propertyPath: descriptionText.Array.data[15]
       value: "<indent=10%>\u2022 Next, pick up the spoon<br>\u2022 Spoon out the
         mayo from the bowl<br>\u2022 Drop the mayo onto the bread slice<br>\u2022
         Pick up the knife<br>\u2022 Now spread the mayo over the buttered bread slice
@@ -19095,7 +19129,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3825243743369816240, guid: 9584a7dbb409a6644aa973a17d72f2a3,
         type: 3}
-      propertyPath: descriptionText.Array.data[15]
+      propertyPath: descriptionText.Array.data[16]
       value: <br>You've completed the task.<br>You've made a sandwich.
       objectReference: {fileID: 0}
     - target: {fileID: 5415314456732466801, guid: 9584a7dbb409a6644aa973a17d72f2a3,
@@ -30075,6 +30109,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5994499245473171244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603448765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4584ccf1d802c4ab3df69282be31b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPosition: {x: 0.1947231, y: -0.5495022, z: 1.648324}
+  dropThreshold: 0
 --- !u!1 &5998061586233339863
 GameObject:
   m_ObjectHideFlags: 0
