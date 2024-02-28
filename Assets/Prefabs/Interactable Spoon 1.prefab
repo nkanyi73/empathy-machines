@@ -256,6 +256,7 @@ GameObject:
   - component: {fileID: 8788780626442327609}
   - component: {fileID: 2505294358384354647}
   - component: {fileID: 4044411968824554914}
+  - component: {fileID: 4879289550974641962}
   m_Layer: 0
   m_Name: Interactable Spoon 1
   m_TagString: Untagged
@@ -380,3 +381,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mayoSphere: {fileID: 4747875564786451090}
   butterSphere: {fileID: 0}
+--- !u!114 &4879289550974641962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9191384194499908616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c9c009965591fc40882e0569f50c035, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 10

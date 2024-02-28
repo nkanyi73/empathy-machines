@@ -11,9 +11,9 @@ tag: StepOne
 
 I cannot even do the simplest of tasks like slice my own bread, instead it is pre-sliced. #line:0ee6b32 
 //option
--> Next #line:0a75484 
-    <<set $breadready=true>>
-    <<jump Butter>>
+// -> Next #line:0a75484 
+//     <<set $breadready=true>>
+//     <<jump Butter>>
 
 ===
 title: Butter
@@ -23,10 +23,10 @@ tag: steptwo
 <<declare $notappliedButter=false>>
 
 With one hand I can't even stabilise the butter dish….it's moving around. I am dependent on others for even the simplest of tasks. #line:0fcd9f9 
-//option
--> Next #line:0f12d39 
-    <<set $appliedButter=true>>
-    <<jump Mayonnaise>>
+// //option
+// -> Next #line:0f12d39 
+//     <<set $appliedButter=true>>
+//     <<jump Mayonnaise>>
 
 ===
 title: Mayonnaise
@@ -36,10 +36,10 @@ tag: stepthree
 <<declare $notappliedMayonnaise=false>>
 
 I can't unscrew the top. Why is there not more consideration for inclusivity and accessibility in packaging design? #line:0d3260a 
-//option
--> Next #line:0a87541 
-    <<set $appliedMayonnaise=true>>
-    <<jump Tomatoes>>
+// //option
+// -> Next #line:0a87541 
+//     <<set $appliedMayonnaise=true>>
+//     <<jump Tomatoes>>
 
 ===
 title: Tomatoes
@@ -48,11 +48,19 @@ tag: stepfour
 <<declare $choppedtomato=false>>
 <<declare $notChoppedTomato=false>>
 
-It's just a sandwich, but it feels like I am climbing a mountain. Does anyone understand how hard this is? #line:0ada240 
+It's just a sandwich, but it feels like I am climbing a mountain. Does anyone understand how hard this is? #line:0ada240
+
+Everything is more difficult with one hand. #line:02127eb  
+
+I need to find a way to do this. #line:0d438b5 
+
+This is tough, I am not slicing the tomato, I am chopping it, but I am persevering. It is about having to accept alternative ways to do everyday things. #line:0be123c 
+
+
 //option
--> Next #line:07eec99 
-    <<set $choppedtomato=true>>
-    <<jump Basil>>
+// -> Next #line:07eec99 
+//     <<set $choppedtomato=true>>
+//     <<jump Basil>>
 
 ===
 title: TomatoesFrustration
@@ -61,11 +69,11 @@ tag: stepfour
 <<declare $choppedtomatoFustration=false>>
 <<declare $notChoppedTomatoFustration=false>>
 
-Everything is more difficult with one hand. #line:02127eb 
+
 //option
--> Next #line:009719e 
-    <<set $choppedtomatoFustration=true>>
-    <<jump Basil>>
+// -> Next #line:009719e 
+//     <<set $choppedtomatoFustration=true>>
+//     <<jump Basil>>
 
 ===
 title: TomatoesFrustrationPerseverance
@@ -74,11 +82,10 @@ tag: stepfour
 <<declare $choppedtomatoFustrationPerseverence=false>>
 <<declare $notChoppedTomatoFustrationPerseverence=false>>
 
-This is tough, I am not slicing the tomato, I am chopping it, but I am persevering. It is about having to accept alternative ways to do everyday things. #line:0be123c 
 //option
--> Next #line:0df05d0 
-    <<set $choppedtomatoFustrationPerseverence=true>>
-    <<jump Basil>>
+// -> Next #line:0df05d0 
+//     <<set $choppedtomatoFustrationPerseverence=true>>
+//     <<jump Basil>>
 
 ===
 title: TomatoesFrustrationDetermination
@@ -87,11 +94,10 @@ tag: stepfour
 <<declare $choppedtomatoFustrationDetermination=false>>
 <<declare $notChoppedTomatoFustrationDetermination=false>>
 
-I need to find a way to do this. #line:0d438b5 
 //option
--> Next #line:02dfa31 
-    <<set $choppedtomatoFustrationDetermination=true>>
-    <<jump Basil>>
+// -> Next #line:02dfa31 
+//     <<set $choppedtomatoFustrationDetermination=true>>
+//     <<jump Basil>>
 
 ===
 title: Basil
@@ -102,9 +108,9 @@ tag: stepfive
 
 I am fed up with being dependent on others. I cannot even prepare my own sandwich. #line:0a82e5d 
 //option
--> Next #line:0417c1d 
-    <<set $addedbasil=true>>
-    <<jump CompletingTheSandwich>>
+// -> Next #line:0417c1d 
+//     <<set $addedbasil=true>>
+//     <<jump CompletingTheSandwich>>
 
 ===
 title: CompletingTheSandwich
@@ -114,17 +120,19 @@ tag: stepsix
 <<declare $sandwichnotready=false>>
 
 I did it, but it took so long. Every step was challenging. #line:0b5e565 
+
+People don not realise the challenges faced with a task as simple as making a sandwich. #line:0b7f6d3 
 //option
--> Next #line:0bee3c4 
-    <<set $sandwichready=true>>
+// -> Next #line:0bee3c4 
+//     <<set $sandwichready=true>>
 ===
 title: CompletingTheSandwichEmpathy
 tag: stepsix
 ---
 <<declare $sandwichreadyEmpathy=false>>
 <<declare $sandwichnotreadyEmpathy=false>>
-People don not realise the challenges faced with a task as simple as making a sandwich. #line:0b7f6d3 
+
 //option
--> Next #line:00fb262 
-    <<set $sandwichreadyEmpathy=true>>
+// -> Next #line:00fb262 
+//     <<set $sandwichreadyEmpathy=true>>
 ===

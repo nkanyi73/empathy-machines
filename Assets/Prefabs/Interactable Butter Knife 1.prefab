@@ -214,6 +214,7 @@ GameObject:
   - component: {fileID: 7641973794026080852}
   - component: {fileID: 8830491797418411061}
   - component: {fileID: 7905877059814944353}
+  - component: {fileID: 8396162469844520823}
   m_Layer: 0
   m_Name: Interactable Butter Knife 1
   m_TagString: Butter Knife
@@ -339,6 +340,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mayoSphere: {fileID: 0}
   butterSphere: {fileID: 2276262352257110918}
+--- !u!114 &8396162469844520823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5003762191762836466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c9c009965591fc40882e0569f50c035, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 10
 --- !u!1 &7617751105492594499
 GameObject:
   m_ObjectHideFlags: 0
