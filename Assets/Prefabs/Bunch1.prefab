@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 8629208130751577447}
   - component: {fileID: 8487741661540808033}
   - component: {fileID: 3818576918793575514}
+  - component: {fileID: 7164981653820682932}
   m_Layer: 0
   m_Name: Bunch1
   m_TagString: Basil
@@ -259,6 +260,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   env: {fileID: 0}
+--- !u!114 &7164981653820682932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943633777139349328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c9c009965591fc40882e0569f50c035, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 2
 --- !u!1 &1789828016158360527
 GameObject:
   m_ObjectHideFlags: 0

@@ -44,13 +44,13 @@ public class StepsUI : MonoBehaviour
             //descriptionTextMeshPro.text = FormatDescriptionText(descriptionText[currentStep]);
             switch (currentStep) 
             {
-                case 1:
+                case 2:
                     StartCoroutine(StartDialogueAfterDelay(5f, "Bread"));
                     break;
-                case 2:
+                case 3:
                     StartCoroutine(StartDialogueAfterDelay(5f, "Butter"));
                     break;
-                case 3:
+                case 1:
                     StartCoroutine(StartDialogueAfterDelay(10f, "Tomatoes"));
                     break;
                 case 4:

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6610890914752598491}
   - component: {fileID: 1293507739076388450}
   - component: {fileID: 6493643180646170048}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Snap Interactable 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 1763289634550584661}
   - component: {fileID: 4185037708812672048}
   - component: {fileID: 3383268603065425640}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Object_7 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 5942462313395636494}
   - component: {fileID: 756269534184170587}
   - component: {fileID: 507715971377214122}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Draw Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,6 +347,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1058718860919601683, guid: 408895317fb7bab449cb058cd2f1906b,
         type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1058718860919601683, guid: 408895317fb7bab449cb058cd2f1906b,
+        type: 3}
       propertyPath: m_TagString
       value: Bread
       objectReference: {fileID: 0}
@@ -418,6 +423,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6738413959320829166, guid: 408895317fb7bab449cb058cd2f1906b,
         type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6738413959320829166, guid: 408895317fb7bab449cb058cd2f1906b,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -443,6 +453,10 @@ PrefabInstance:
         type: 3}
       insertIndex: 5
       addedObject: {fileID: 691339588760292881}
+    - targetCorrespondingSourceObject: {fileID: 1058718860919601683, guid: 408895317fb7bab449cb058cd2f1906b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8379212858125594704}
   m_SourcePrefab: {fileID: 100100000, guid: 408895317fb7bab449cb058cd2f1906b, type: 3}
 --- !u!4 &515741969538360646 stripped
 Transform:
@@ -470,6 +484,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   env: {fileID: 0}
   breadSlices: []
+--- !u!114 &8379212858125594704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905502516155743788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c9c009965591fc40882e0569f50c035, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 2
 --- !u!4 &5486511970602048296 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6405498355411377943, guid: 408895317fb7bab449cb058cd2f1906b,

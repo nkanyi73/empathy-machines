@@ -73,6 +73,8 @@ public class SliceObject : MonoBehaviour
         MeshCollider collider = slicedGameObject.AddComponent<MeshCollider>();
         collider.convex = true;
 
+        ResetPosition resetPositionElement = slicedGameObject.AddComponent<ResetPosition>();
+        resetPositionElement.distance = 1;
         // Setting the Sliceable layer
 
         slicedGameObject.layer = LayerMask.NameToLayer("Sliceable");
