@@ -122,11 +122,11 @@ public class StepsUI : MonoBehaviour
         // Adjust the delays for each step as needed
         switch (step)
         {
-            case 1: return 5f;
-            case 2: return 15f;
-            case 3: return 10f;
-            case 4: return 10f;
-            case 5: return 10f;
+            case 1: return 10f;
+            case 2: return 17f;
+            case 3: return 20f;
+            case 4: return 20f;
+            case 5: return 20f;
             case 6: return 10f;
             case 7: return 2f;
             default: return 0f; // No delay for other steps
