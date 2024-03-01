@@ -6,6 +6,7 @@ using System.Net;
 using Newtonsoft.Json.Linq;
 using UnityEngine;
 
+
 public class AirtableManager : MonoBehaviour
 {
 
@@ -26,8 +27,8 @@ public class AirtableManager : MonoBehaviour
     public string dateTime;
     public string uuid;
     public string startTime;
-    public string oneHandedDuration;
-    public string twoHandedDuration;
+    public static string oneHandedDuration;
+    public static string twoHandedDuration;
 
     [Header("Data From Airtable")]
     // Data fields for retrieving information from Airtable
@@ -51,6 +52,7 @@ public class AirtableManager : MonoBehaviour
 
         // Get the current date and time
         dateTime = DateTime.Now.ToString("dd.MM.yyyy");
+        uuid = Guid.NewGuid().ToString();
 
         // Create the URL for the API request
         string url = airtableEndpoint + baseId + "/" + tableName;

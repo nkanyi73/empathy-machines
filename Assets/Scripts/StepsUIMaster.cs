@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using Yarn.Unity;
 
-public class StepsUI : MonoBehaviour
+public class StepsUIMaster : MonoBehaviour
 {
     public TextMeshProUGUI tileTextMeshPro;
     public TextMeshProUGUI descriptionTextMeshPro;
@@ -13,13 +13,14 @@ public class StepsUI : MonoBehaviour
     public string[] titleText;
     public string[] descriptionText;
 
-    private int currentStep = 0;
+    private int currentStep = 10;
     private float startTime;
 
     public GameObject nextSceneButton;
     public GameObject nextButton;
 
     public EnvironmentScript env;
+    public AirtableManager airtableManager;
 
     // Start is called before the first frame update
     void Start()
@@ -109,17 +110,11 @@ public class StepsUI : MonoBehaviour
     {
         switch (step)
         {
-            case 1: return "Bread";
-            case 2: return "Butter";
-            case 3: return "Mayonnaise";
-            case 4: return "Tomatoes";
-            case 5: return "Basil";
-            case 6: return "CompletingTheSandwich";
-            case 7: return "CompletingTheSandwichEmpathy";
-            case 8:
+            case 16:
                 nextSceneButton.SetActive(true);
                 nextButton.SetActive(false);
-                AirtableManager.oneHandedDuration = env.StopCounter().ToString();
+                AirtableManager.twoHandedDuration = env.StopCounter().ToString();
+                airtableManager.CreateRecord();
                 return "";
             default: return ""; // Adjust this based on your specific logic or add additional cases
         }

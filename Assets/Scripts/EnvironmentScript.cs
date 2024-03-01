@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnvironmentScript : MonoBehaviour
@@ -7,13 +8,33 @@ public class EnvironmentScript : MonoBehaviour
     public bool hasSandwichMakingBegun;
     private float startTime;
     public bool isDominantHandLeft;
-    public SkinnedMeshRenderer leftHandRenderer;
-    public SkinnedMeshRenderer rightHandRenderer;
+    private SkinnedMeshRenderer leftHandRenderer;
+    private SkinnedMeshRenderer rightHandRenderer;
     public bool isHandTrackingEnabled;
+    public bool isBothHandsPrefab;
     // Start is called before the first frame update
     void Start()
     {
-        isDominantHandLeft = true;
+        StartCounter();
+        try
+        {
+            leftHandRenderer = GameObject.FindGameObjectWithTag("LeftHandMeshRenderer").GetComponent<SkinnedMeshRenderer>();
+            rightHandRenderer = GameObject.FindGameObjectWithTag("RightHandMeshRenderer").GetComponent<SkinnedMeshRenderer>();
+            if (rightHandRenderer == null )
+            {
+                Debug.Log("Not Found Right Hand");
+            }
+            //rightHandRenderer = GameObject.Find("r_handMeshNode").GetComponent<SkinnedMeshRenderer>();
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogException(e);
+        }
+        
+        //if (leftHandRenderer == null && rightHandRenderer == null ) 
+        //{
+        //    Debug.LogError("Skinned Mesh Renderers not Found");
+        //}
     }
 
     // Update is called once per frame
@@ -37,21 +58,38 @@ public class EnvironmentScript : MonoBehaviour
 
     public bool CheckHandTracking()
     {
-        if(isDominantHandLeft)
+        if (isBothHandsPrefab)
         {
-            if (leftHandRenderer.enabled) 
+            if (leftHandRenderer.enabled && rightHandRenderer.enabled)
             {
                 return true;
             }
-        } 
+            return false;
+        }
         else
         {
-            if(!rightHandRenderer.enabled)
+
+            if (isDominantHandLeft)
             {
-                return true;
+                if (leftHandRenderer.enabled)
+                {
+                    return true;
+                }
             }
+            else
+            {
+                if (rightHandRenderer == null)
+                {
+                    Debug.Log("Not Found Right Hand");
+                    rightHandRenderer = GameObject.FindGameObjectWithTag("RightHandMeshRenderer").GetComponent<SkinnedMeshRenderer>();
+                }
+                if (rightHandRenderer.enabled)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
-        return false;
     }
 
     
