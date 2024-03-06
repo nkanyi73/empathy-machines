@@ -15,7 +15,7 @@ Launch the application on your Meta VR headset to begin your journey with Jo. Yo
 ## Video
 See the video below to have a sneak peek of what the application is like.
 
-[![Watch the demo](https://img.youtube.com/vi/VGEKhhWQLdY/maxresdefault.jpg)](https://www.youtube.com/watch?v=VGEKhhWQLdY)
+[![Watch the demo](https://img.youtube.com/vi/VGEKhhWQLdY/0.jpg)](https://www.youtube.com/watch?v=VGEKhhWQLdY)
 
 ## Features
 
