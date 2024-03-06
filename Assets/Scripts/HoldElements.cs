@@ -9,6 +9,7 @@ public class HoldElements : MonoBehaviour
 {
     public EnvironmentScript env;
     public GameObject[] breadSlices;
+    public GameObject breadPrefab;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Sliceable"))
@@ -46,7 +47,10 @@ public class HoldElements : MonoBehaviour
                 collision.gameObject.transform.SetParent(transform, false);
                 collision.gameObject.GetComponent<Rigidbody>().isKinematic = true;
                 collision.gameObject.GetComponent<Rigidbody>().useGravity = false;
-                collision.gameObject.transform.localScale = Vector3.one;
+                //collision.gameObject.transform.localScale = Vector3.one;
+
+                breadPrefab.SetActive(true);
+                this.gameObject.SetActive(false);
             }
         }
     }
