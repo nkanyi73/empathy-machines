@@ -12,6 +12,15 @@ EditorBuildSettings:
     path: Assets/Samples/Meta XR Interaction SDK OVR Samples/62.0.0/Example Scenes/HandGrabUseExamples.unity
     guid: 509f8fa80c708b343a603a4771d35c85
   - enabled: 1
+    path: Assets/Scenes/Intro Scene.unity
+    guid: 205bb05e48e926f478fd5a3d3037e47d
+  - enabled: 1
+    path: Assets/Scenes/MainScene - Right.unity
+    guid: 133f24c11c180b741a43798fd4bf4d43
+  - enabled: 1
+    path: Assets/Scenes/MainScene - Left.unity
+    guid: bea7cbb6b196e86439329dfb65c6b094
+  - enabled: 1
     path: Assets/Scenes/MainScene - Master.unity
     guid: 274dd5ba76a1b9844acaf7b68b780671
   m_configObjects:

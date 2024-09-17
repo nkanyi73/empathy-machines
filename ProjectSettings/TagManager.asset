@@ -16,6 +16,8 @@ TagManager:
   - Basil
   - Tomato
   - Counter
+  - LeftHandMeshRenderer
+  - RightHandMeshRenderer
   layers:
   - Default
   - TransparentFX

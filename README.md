@@ -1,59 +1,33 @@
-# Unity-Meta-Quest-Template
-Unity template project optimised for Meta Quest devices.
-Current Project Version Unity 2022.3.2f
+# Giving Jo A Hand
 
-Changes from default Unity project with Android build target:  
+## Brief Description
 
-Packages:  
-Installed XR Plug-in Management. Targets Quest, Quest 2, Quest Pro  
-Installed OpenXR Plugin  
-Installed Oculus XR Plugin  
-Installed XR Interaction Toolkit version 2.4.0
-Installed XR Hands 1.2.1
-Installed Meta OpenXR Feature 0.1.1
-URP Samples imported (includes useful blob shadow shader)  
+"Giving Jo A Hand" is an empathy machine, offering users a poignant insight into the daily life of individuals with upper limb loss. Through immersive VR experiences, users step into the shoes of Jo, a character facing the challenges of limb differences. The application employs 'mindful embodiment' techniques to alter bodily self-consciousness, fostering empathy, and understanding.
 
-Quality Settings:  
-Custom Quality profiles  for Quest, Quest 2, Quest Pro, Quest 3. (Default Quest 2)  
-Vsync disabled  
-Anisotropic Textures set to Per Texture.  
-Shadowmask Mode set to Shadowmask  
-LOD Bias set to 0.7  
-Skin Weights set to 2 Bones  
+## Installation
 
-Player Settings:  
-Auto Graphics API disabled, set to OpenGL ES 3.0  
-Texture Compression format set to ATSC  
-Minimum API Level set to Android 10.0 (API Level 29)  
-Lightmap encoding set to High Quality  
-HDR Cubemap encoding set to High Quality  
-Use Incremental GC enabled 
-Scripting Backend set to IL2CPP  
-IL2CPP Code generation set to Faster (smaller) builds *Change this to Faster runtime for release build  
-Target Architecture set to Arm64  
-Active Input Handling set to Both  
-Optimize Mesh Data enabled   
+To experience "Giving Jo A Hand," simply access the latest build from the Releases section on GitHub. Install the application on your Meta VR headset following the device's standard installation process.
 
+## Usage
 
-Physics Settings:  
-Reuse Collision Callbacks enabled  
-Default Max Angular Speed set to 7 
-Enabled Improved Patch Friction 
+Launch the application on your Meta VR headset to begin your journey with Jo. You'll be prompted to perform tasks, such as making a sandwich, using one hand and then both hands, providing an immersive understanding of the challenges faced by individuals with upper limb loss.
 
-Time Settings:  
-Maximum Allowed Timestep set to 0.0138 (for 72 Hz)  
+## Video
+See the video below to have a sneak peek of what the application is like.
 
-URP Renderer Settings:  
-Shadows – Transparent Receive Shadows disabled   
+[![Watch the demo](https://img.youtube.com/vi/VGEKhhWQLdY/0.jpg)](https://www.youtube.com/watch?v=VGEKhhWQLdY)
 
-URP Pipeline asset settings for Quest 2: (minor differences for Quest 1 and Quest Pro)  
-Disable Terrain Holes  
-Main Light – Cast Shadows disabled  
-Additional Lights set to Per Pixel  
+## Features
 
-Notes:  
-The project is set up to have to realtime shadows and no additional lights.
-Adjust URP shadow settings according to the needs of your game/app.   
-For release builds enable Low Overhead Mode under Oculus XR Plug-in Management options.  
+- **Hand Tracking**: Experience accurate hand movements and interactions using hand tracking technology.
+- **Controller Tracking**: Utilize VR controllers for precise interactions and gameplay.
+- **Realistic Physics**: Immerse yourself in a virtual environment with real physics simulations.
+- **Multiple Game Modes**: Engage in various game modes, including making a sandwich using one hand and both hands, to cater to different preferences and abilities.
 
-Cornell Box model taken form Sketchfab - Cornell Box- Original - Download Free 3D model by t-ly (@t-ly) https://sketchfab.com/3d-models/cornell-box-original-0d18de8d108c4c9cab1a4405698cc6b6
+## Contributing
+
+Contributions to "Giving Jo A Hand" are welcome! Feel free to report any issues or suggest improvements by creating a GitHub issue.
+
+## License
+
+This project is licensed under the MIT License. 

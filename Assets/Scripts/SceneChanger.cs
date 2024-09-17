@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneChanger : MonoBehaviour
 {
     public OVRScreenFade screenFade;
-    public string sceneNameMaster;
+    //public string sceneNameMaster;
     public float fadeTime;
     public bool finalScene;
 
@@ -14,7 +14,7 @@ public class SceneChanger : MonoBehaviour
     void Start()
     {
         screenFade = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<OVRScreenFade>();
-        if(screenFade == null )
+        if (screenFade == null )
         {
             Debug.LogError("Could Not find screen fade");
         }
@@ -27,6 +27,20 @@ public class SceneChanger : MonoBehaviour
     
     public void MoveToNextScene(string sceneName)
     {
+        StartCoroutine(NextSceneCoroutine(sceneName));
+    }
+
+    public void MoveToInitialSceneRight(string sceneName)
+    {
+        //EnvironmentScript.isBothHandsPrefab = false;
+        //EnvironmentScript.isDominantHandLeft = false;
+        StartCoroutine(NextSceneCoroutine(sceneName));
+    }
+
+    public void MoveToInitialSceneLeft(string sceneName)
+    {
+        //EnvironmentScript.isBothHandsPrefab = false;
+        //EnvironmentScript.isDominantHandLeft = true;
         StartCoroutine(NextSceneCoroutine(sceneName));
     }
 
@@ -48,13 +62,13 @@ public class SceneChanger : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("Collision Detected");
-        if(other.CompareTag("Player"))
-        {
-            Debug.Log("Switching to " + sceneNameMaster);
-            MoveToNextScene(sceneNameMaster);
-        }
-    }
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    Debug.Log("Collision Detected");
+    //    if(other.CompareTag("Player"))
+    //    {
+    //        Debug.Log("Switching to " + sceneNameMaster);
+    //        MoveToNextScene(sceneNameMaster);
+    //    }
+    //}
 }

@@ -100,8 +100,8 @@ public class AirtableSceneController : MonoBehaviour
     {
         airtableManager.uuid = playerName;
         airtableManager.startTime = volume;
-        airtableManager.oneHandedDuration = coins;
-        airtableManager.twoHandedDuration = timePlayed;
+        //airtableManager.oneHandedDuration = coins;
+        //airtableManager.twoHandedDuration = timePlayed;
         airtableManager.CreateRecord();
     }
 
